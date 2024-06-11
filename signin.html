@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Self Service</title>
+    <link rel="stylesheet" href="signin.css">
+    <script defer src="signin.js"></script> <!-- Added JavaScript file -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">The<span class="highlight"> Fitness Factory</span></a>
+        </div>
+    </header>
+    <main>
+        <div class="signin-card">
+            <h2>Sign In</h2>
+            <form id="signin-form">
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="username" id="username" placeholder="Username" required>
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label class="remember" for="remember">Remember Me</label>
+                    <span class="trouble-link">Having Trouble?</span>
+                </div>
+                <button type="submit" class="login-button">Log In</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 The Fitness Factory. All rights reserved.</p>
+    </footer>
+</body>
+</html>

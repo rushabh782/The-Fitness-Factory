@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('fitimg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.highlight {
+    color: red;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+nav ul li:nth-child(1) a:hover {
+    color: #ffcc00;
+}
+
+nav ul li:nth-child(2) a:hover {
+    color: #00ccff;
+}
+
+nav ul li:nth-child(3) a:hover {
+    color: #cc00ff;
+}
+
+nav ul li:nth-child(4) a:hover {
+    color: #ff6600;
+}
+
+nav ul li:nth-child(5) a:hover {
+    color: #66ff00;
+}
+
+nav ul li a:hover {
+    transform: translateY(-1cm);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+    max-width: 600px;
+}
+
+.message h1 {
+    font-size: 48px;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.message p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #ff8c00;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}

@@ -1,0 +1,105 @@
+/* aboutus.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.amenities {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.about-section {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px;
+}
+
+.about-section h2 {
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.highlight {
+    color: red;
+}
+
+.sub-heading {
+    font-weight: bold;
+    color: grey;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.facility-features {
+    font-weight: bold;
+    color: grey;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feature-item {
+    flex: 0 0 45%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.feature-icon {
+    margin-right: 10px;
+    color: red;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
